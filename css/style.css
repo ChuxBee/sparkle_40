@@ -267,7 +267,7 @@ section {
 
 }
 
-.one-liner-comments_box {
+.brief-birthday-wishes_box {
   width: 100%;
   padding: 40px;
   background-color: gray;
@@ -275,11 +275,11 @@ section {
   box-shadow: 0 0px 25px rgba(0, 0, 0, .3);
 }
 
-.one-liner-comments_box .user-box {
+.brief-birthday-wishes_box .user-box {
   position: relative;
 }
 
-.one-liner-comments_box .user-box input {
+.brief-birthday-wishes_box .user-box input {
   width: 100%;
   padding: 10px 0;
   font-size: 16px;
@@ -291,7 +291,7 @@ section {
   background: transparent;
 }
 
-.one-liner-comments_box .user-box textarea {
+.brief-birthday-wishes_box .user-box textarea {
   width: 100%;
   padding: 10px 0;
   font-size: 16px;
@@ -303,7 +303,7 @@ section {
   resize: none;
 }
 
-.one-liner-comments_box .user-box label {
+.brief-birthday-wishes_box .user-box label {
   position: absolute;
   top: 0;
   left: 0;
@@ -314,17 +314,17 @@ section {
   transition: .5s;
 }
 
-.one-liner-comments_box .user-box input:focus~label,
-.one-liner-comments_box .user-box input:valid~label,
-.one-liner-comments_box .user-box textarea:focus~label,
-.one-liner-comments_box .user-box textarea:valid~label {
+.brief-birthday-wishes_box .user-box input:focus~label,
+.brief-birthday-wishes_box .user-box input:valid~label,
+.brief-birthday-wishes_box .user-box textarea:focus~label,
+.brief-birthday-wishes_box .user-box textarea:valid~label {
   top: 20px;
   left: 0;
   color: #aaa;
   font-size: 11px;
 }
 
-.one-liner-comments_box form button {
+.brief-birthday-wishes_box form button {
   position: relative;
   display: inline-block;
   padding: 10px 20px;
@@ -341,7 +341,7 @@ section {
   border-radius: 5px;
 }
 
-.one-liner-comments_box button:hover {
+.brief-birthday-wishes_box button:hover {
   border: 1px solid transparent;
   color: #fff;
   border-radius: 5px;
